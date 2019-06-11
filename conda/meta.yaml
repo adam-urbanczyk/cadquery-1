@@ -24,7 +24,7 @@ test:
     - runtests.py
     - tests/
   commands:
-    - python runtests.py
+    - strace python runtests.py
 
 about:
   summary: CadQuery fork based on PythonOCC
